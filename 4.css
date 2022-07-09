@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "myfont";
+    src: url("B-NAZANIN.TTF");
+}
+
+body{
+    font-family: myfont;
+    background-image: url('23.jpg');
+    background-repeat: round;
+}
+
+label{
+    color: rgb(93, 104, 199);
+    font-weight: bold;
+}
+
+.form_container{
+    border: 3px solid red;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url('22.jpg');
+    background-repeat: round;
+}
+
+legend{
+    color: rgb(93, 104, 199);
+    font-weight: bold;
+}
+
+input[type=submit]{
+    font-size: large;
+    font-weight: bolder;
+    padding-right: 10px;
+    padding-left: 10px ;
+    background-color: blanchedalmond;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.output{
+    border: 3px solid red;
+    background-image: url('22.jpg');
+    background-repeat: round;
+    width: 50%;
+    height: 350px;
+    margin-top: 8px;
+}

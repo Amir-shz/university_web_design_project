@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "myfont";
+    src: url("B-NAZANIN.TTF");
+}
+
+
+@media screen and (min-width:992px) {
+    body{
+        font-family: myfont;
+        background-color: rgb(28, 53, 107);
+    }
+
+    .grid_first{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 6px;
+    }
+
+    .item1{
+        grid-column: 1 / 4;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .item{
+        text-align: center;
+        margin: 8px;
+        height: 115px;
+
+    }
+
+    .item1 , .item {
+        border: 3px solid rgb(186, 170, 201);
+        border-radius: 10px;
+        background-color: rgb(128, 145, 194);
+    }
+
+    .grid_second{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    img{
+        padding: 15px;
+        border-radius: 30%;
+    }
+
+    .caption_1{
+        padding-right: 30px;
+    }
+
+    div > h1 {
+        font-size: 50px;
+    }
+
+    div > h2 {
+        padding-right: 45px;
+        font-size: 35px;
+    }
+
+    div > p{
+        font-size: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        border: 3px dotted black;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: rgb(165, 140, 255);
+        color: aliceblue;
+    }
+
+    .End{
+        border: 3px solid rgb(186, 170, 201);
+        border-radius: 10px;
+        background-color: rgb(128, 145, 194);
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width:992px){
+    body{
+        font-family: myfont;
+        background-color: rgb(28, 53, 107);
+    }
+
+    .grid_first{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 6px;
+    }
+
+    .item1{
+        grid-column: 1 / 4;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .item{
+        text-align: center;
+        margin: 8px;
+        height: 115px;
+
+    }
+
+    .item1 , .item {
+        border: 3px solid rgb(186, 170, 201);
+        border-radius: 10px;
+        background-color: rgb(128, 145, 194);
+    }
+
+    .grid_second{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+        border-radius: 30%;
+    }
+
+    .caption_1{
+        padding-right: 30px;
+    }
+
+    div > h1 {
+        font-size: 35px;
+    }
+
+    div > h2 {
+        padding-right: 45px;
+        font-size: 25px;
+    }
+
+    div > p{
+        font-size: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        border: 3px dotted black;
+        border-radius: 5px;
+        padding: 4px;
+        background-color: rgb(165, 140, 255);
+        color: aliceblue;
+    }
+
+    .End{
+        border: 3px solid rgb(186, 170, 201);
+        border-radius: 10px;
+        background-color: rgb(128, 145, 194);
+        text-align: center;
+    } 
+}

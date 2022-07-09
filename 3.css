@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "myfont";
+    src: url("B-NAZANIN.TTF");
+}
+
+body{
+    font-family: myfont;
+    background-color: rgb(28, 53, 107);
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item{
+    border: 3px solid rgb(186, 170, 201);
+    border-radius: 10px;
+    background-color: rgb(128, 145, 194);
+    margin: 3px;
+    text-align: center;
+    grid-column: 1 / 5;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img{
+    width: 95%;
+    height: 350px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 2.5px solid rgb(230, 122, 215);
+    border-radius: 7px;
+}
+.grid_container > div:not(.item){
+    margin: 12px;
+}
+  
+

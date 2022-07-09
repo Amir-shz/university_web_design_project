@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="4.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <center>
+      <form>
+        <div class="form_container">
+          <label for="fname">نام</label><br />
+          <input type="text" id="fname" name="fname" placeholder="نام" /><br />
+          <label for="lname">نام خانوادگی</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="نام خانوادگی"
+          /><br />
+          <label>تاریخ تولد</label><br />
+          <select name="Birthday_day" id="Birthday_Day">
+            <option value="">روز</option>
+            <option value="1">۱</option>
+            <option value="2">۲</option>
+            <option value="3">۳</option>
+            <option value="4">۴</option>
+            <option value="5">۵</option>
+            <option value="6">۶</option>
+            <option value="7">۷</option>
+            <option value="8">۸</option>
+            <option value="9">۹</option>
+            <option value="10">۱۰</option>
+            <option value="11">۱۱</option>
+            <option value="12">۱۲</option>
+            <option value="13">۱۳</option>
+            <option value="14">۱۴</option>
+            <option value="15">۱۵</option>
+            <option value="16">۱۶</option>
+            <option value="17">۱۷</option>
+            <option value="18">۱۸</option>
+            <option value="19">۱۹</option>
+            <option value="20">۲۰</option>
+            <option value="21">۲۱</option>
+            <option value="22">۲۲</option>
+            <option value="23">۲۳</option>
+            <option value="24">۲۴</option>
+            <option value="25">۲۵</option>
+            <option value="26">۲۶</option>
+            <option value="27">۲۷</option>
+            <option value="28">۲۸</option>
+            <option value="29">۲۹</option>
+            <option value="30">۳۰</option>
+            <option value="31">۳۱</option>
+          </select>
+
+          <select id="Birthday_Month" name="Birthday_Month">
+            <option value="">ماه</option>
+            <option value="فروردین">فروردین</option>
+            <option value="اردیبهشت">اردیبهشت</option>
+            <option value="خرداد">خرداد</option>
+            <option value="تیر">تیر</option>
+            <option value="مرداد">مرداد</option>
+            <option value="شهریور">شهریور</option>
+            <option value="مهر">مهر</option>
+            <option value="آبان">آبان</option>
+            <option value="آذر">آذر</option>
+            <option value="دی">دی</option>
+            <option value="بهمن">بهمن</option>
+            <option value="اسفند">اسفند</option>
+          </select>
+
+          <select name="Birthday_Year" id="Birthday_Year">
+            <option value="">سال</option>
+            <option value="۱۳۹۰">۱۳۹۰</option>
+            <option value="۱۳۸۹">۱۳۸۹</option>
+            <option value="۱۳۸۸">۱۳۸۸</option>
+            <option value="۱۳۸۷">۱۳۸۷</option>
+            <option value="۱۳۸۶">۱۳۸۶</option>
+            <option value="۱۳۸۵">۱۳۸۵</option>
+            <option value="۱۳۸۴">۱۳۸۴</option>
+            <option value="۱۳۸۳">۱۳۸۳</option>
+            <option value="۱۳۸۲">۱۳۸۲</option>
+            <option value="۱۳۸۱">۱۳۸۱</option>
+            <option value="۱۳۸۰">۱۳۸۰</option>
+            <option value="۱۳۷۹">۱۳۷۹</option>
+            <option value="۱۳۷۸">۱۳۷۸</option>
+            <option value="۱۳۷۷">۱۳۷۷</option>
+            <option value="۱۳۷۶">۱۳۷۶</option>
+            <option value="۱۳۷۵">۱۳۷۵</option>
+            <option value="۱۳۷۴">۱۳۷۴</option>
+            <option value="۱۳۷۳">۱۳۷۳</option>
+            <option value="۱۳۷۲">۱۳۷۲</option>
+            <option value="۱۳۷۱">۱۳۷۱</option>
+            <option value="۱۳۷۰">۱۳۷۰</option>
+            <option value="۱۳۶۹">۱۳۶۹</option>
+            <option value="۱۳۶۸">۱۳۶۸</option>
+            <option value="۱۳۶۷">۱۳۶۷</option>
+            <option value="۱۳۶۶">۱۳۶۶</option>
+            <option value="۱۳۶۵">۱۳۶۵</option>
+            <option value="۱۳۶۴">۱۳۶۴</option>
+            <option value="۱۳۶۳">۱۳۶۳</option>
+            <option value="۱۳۶۲">۱۳۶۲</option>
+            <option value="۱۳۶۱">۱۳۶۱</option>
+            <option value="۱۳۶۰">۱۳۶۰</option>
+          </select>
+          <br />
+          <label for="email">ایمیل</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ایمیل"
+          /><br />
+          <label for="Mobile_Number">شماره تلفن(۱۰ رقم)</label><br />
+          <input
+            type="number"
+            name="Mobile_Number"
+            maxlength="10"
+            id="Mobile_Number"
+            placeholder="شماره تلفن"
+          /><br />
+          <label for="student_Number">شماره دانشجویی(۱۰ رقم)</label><br />
+          <input
+            type="number"
+            name="student_Number"
+            maxlength="10"
+            id="student_Number"
+            placeholder="شماره دانشجویی"
+          /><br />
+
+          <fieldset>
+            <legend>جنسیت</legend>
+            <select id="gender">
+              <option value="مذکر">مذکر</option>
+              <option value="مونث">مونث</option>
+            </select>
+          </fieldset>
+          <br />
+          <label for="Address">آدرس</label><br />
+          <textarea name="Address" id="Address"></textarea><br />
+          <input type="submit" value="ثبت" id="btn" />
+        </div>
+      </form>
+      <div class="output">
+        <div id="out_name"></div>
+        <div id="out_birthday"></div>
+        <div id="out_email"></div>
+        <div id="out_phone_number"></div>
+        <div id="out_student_number"></div>
+        <div id="out_gender"></div>
+        <div id="out_address"></div>
+      </div>
+    </center>
+    <script src="4.js"></script>
+  </body>
+</html>
